@@ -1,0 +1,229 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+section, footer {
+    padding: 90px 0;
+}
+
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+/*Header*/
+
+.header {
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo {
+    padding: 0 12px 3px 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    position: relative;
+}
+
+.logo::after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*nav*/
+
+.nav {
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.nav-item.active {
+    color: #606060;
+}
+
+.nav-btn {
+    display: none;
+}
+
+/*header content*/
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    padding-top: 124px;
+    max-width: 500px;
+}
+
+.header-heading {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+/*services*/
+
+.services {
+
+}
+
+.services-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.services-card {
+    max-width: 370px;
+}
+
+.services-card-img {
+    margin-bottom: 30px;
+}
+
+.services-card-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.services-card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+/*portfolio*/
+
+.portfolio {
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    color: #070707;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: underline;
+}
+
+/*contacts*/
+
+.footer {
+
+}
+
+.contacts-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title, .contact-text-01, .contact-social {
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #070707;
+}
+
+.contact-button {
+    margin-bottom: 80px;
+}
+
+.btn, a.btn {
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    /*transition: opacity linear .1s;*/
+}
+
+.btn:hover, a.btn:hover, btn:focus, a.btn:focus {
+    opacity: 0.9;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+    width: 100%;
+}
+
+.contact-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #828282;
+}
